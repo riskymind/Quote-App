@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quote App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Codystar' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Sevillana' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="quoteApp">
+	<div class="foundation" id="framy">
+		<header>
+			<h1>QUOTES APP</h1>
+			<h3>Get Inspired by US...</h3>
+		</header>
+		<div class="container">
+			<!-- View for Quotes to display -->
+			<div id="quoteView">
+				<p id="viewSection">Click Get Quote...</p>
+				<p id="viewSectionAuthor"></p>
+			</div>
+
+			<!-- **NOTE**
+				 qb = quote button;
+				 nq = new quote;
+			-->
+			<div class="qbSection">
+				<a href="#inputQuote">
+					<button class="qButton">
+						Create Quote
+					</button>
+				</a>
+
+				<button class="qButton" id="findQuote">
+					Get Quote
+				</button>
+			</div>
+
+			<div id="inputQuote" class="modal">
+				<div>
+					<a href="#" id="close" title="close" class="close">X</a>
+					<form id="frm" action="#" onsubmit="createQuote(), event.preventDefault()">
+						<label>Author's Name</label>
+						<input type="text" id="authName" name="authName" placeholder="Ex. Opara Kelechi" required>
+
+						<label>Quote</label>
+						<input type="text" id="quote" name="quote" placeholder="Always put GOD first..." required>
+						<input href="#close" type="submit" value="Add Quote">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			<footer>
+				<h4 class="foot">Powered by...
+					<a href="#">TailoredMind<sup>*</sup></a>
+				</h4>
+				<form class="frm2" action="#" onsubmit="searching(), event.preventDefault()">
+				  <input type="text" placeholder="Search Author's quote" name="search2" id="finding">
+				  <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</footer>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+body {
+	background:url("http://www.loveimagesdownload.com/wp-content/uploads/2016/08/wallpaper-of-love-768x480.jpg"); 	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.foundation{
+	background-color: transparent;
+	background:no-repeat center fixed;
+	position: relative;
+	width: 60%;
+	margin: 5% auto 5%;
+	padding: 36px;
+	color: rgba(0, 204, 204, 0.6);
+	text-align: center;
+	border-radius: 5px;
+	border-style: inset;
+	border-color: none;
+
+}
+
+header{
+	text-align: center;
+}
+
+h1, h3 {
+	font-weight: bolder;
+	color: rgba(0, 204, 204, 0.6);
+	font-family: 'Codystar';
+	margin: 0 0 0 2.5px;
+}
+
+h3{
+	font-size: 15px;
+	text-shadow: 2px 2px #0000FF;
+}
+
+#quoteView{
+	background-color: rgba(115, 109, 108, 0.75);
+	max-width: 60%;
+	margin: 5% auto 5%;
+	font-size: 2em;
+	color: white;
+	border-radius: 5px;
+}
+
+p{
+	padding: 25px;
+	text-align: center;
+	font-family: 'Sevillana';
+}
+
+#viewSectionAuthor{
+	text-align: right;
+	color: black;
+	text-decoration: underline;
+	display: block; 
+}
+
+.qbSection{
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.qButton{
+	background-color: rgba(115, 109, 108, 0.75);
+	font-family: cursive;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 4px 4px 30px;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.qButton:hover{
+	box-shadow: 0 12px 16px 0 black;
+	color: lightblue;
+}
+
+footer{
+	text-align: left;
+	margin-top: 100px;
+}
+
+sup{
+	color: black;
+}
+
+sup:hover{
+	font-size: 35px;
+}
+
+.modal{
+	position: fixed;
+	font-family: 'Sevillana';
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.modal>div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.modal:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.close {
+	background: red;
+	color: #ffffff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 12px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+	font-size: 50px;
+	background-color: transparent;
+	color: red;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+label{
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+#quote{
+	width: 100%;
+	padding: 50px 20px;
+	margin: 8px 0;
+}
+
+input[type=submit] {
+	background-color: rgba(115, 109, 108, 0.75);
+	font-family: cursive;
+	font-size: 16px;
+	width: 50%;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: rgba(16, 14, 13, 0.75);
+	font-family: 'Sevillana';
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 black;
+	color: lightblue;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active{
+	text-decoration: underline;
+}
+
+form.frm2 button {
+    width: 20%;
+    padding: 10px;
+    background-color: rgba(115, 109, 108, 0.75);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+form.frm2 input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.frm2{
+	margin:auto;
+	max-width:300px;
+}
